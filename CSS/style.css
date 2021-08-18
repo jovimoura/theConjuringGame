@@ -1,0 +1,61 @@
+body {
+    background: black;
+}
+
+.titulo-game {
+    color:red;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-family: 'Antic', sans-serif;
+}
+
+.apresentacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-inicio {
+    margin-right: 50px;
+    margin-left: 15px;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.imagem-casa {
+    height: 350px;
+    width: 580px;
+    margin-right: 15px;
+}
+
+.bottom-box {
+    text-align: center;
+    margin-top: 60px;
+    
+    
+}
+
+.botao-iniciar {
+    border-radius: 10px;
+    color:black;
+    background: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Aclonica', sans-serif;
+    text-decoration: none;
+}
+
+.botao-iniciar:hover {
+    border: white solid 3px;
+    font-size: 43xpx;
+}
+
+.botao-iniciar:active {
+    background: white;
+}

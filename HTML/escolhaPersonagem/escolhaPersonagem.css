@@ -1,0 +1,71 @@
+body {
+    background: black;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 40px;
+    
+}
+
+
+.foto-texto {
+    border:black solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.caracteristicas {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    
+    
+
+}
+
+.imagem {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.titulo-escolha {
+    color:red;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.caracteristicas {
+    color: white;
+    font-family: 'Antic', sans-serif;
+    
+}
+
+
+.escolha {
+    border-radius: 10px;
+    color:black;
+    background: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Aclonica', sans-serif;
+    text-decoration: none;
+    
+}
+
+.escolha:hover {
+    border: white solid 3px;
+    font-size: 43xpx;
+}
+
+.escolha:active {
+    background: white;
+}
