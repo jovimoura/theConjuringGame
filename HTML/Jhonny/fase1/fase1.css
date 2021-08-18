@@ -20,6 +20,30 @@ body {
 p {
     color: white;
     font-family: 'Antic', sans-serif;
+    text-align: center;
+    margin: 3px;
+}
+
+.pergunta {
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 8px;
+}
+
+.resposta {
+    color: white;
+    font-family: 'Antic', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin: 6px;
+}
+
+.container-botao {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
 }
 
 
@@ -31,6 +55,8 @@ p {
     font-size: 40px;
     font-family: 'Aclonica', sans-serif;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao:hover {
