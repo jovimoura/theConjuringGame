@@ -1,0 +1,59 @@
+body {
+    background: black;
+}
+
+.titulo {
+    color:red;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    margin: 20px;
+}
+
+p {
+    color: white;
+    font-family: 'Antic', sans-serif;
+    text-align: center;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 580px;
+    height: 350px;
+    margin:20px;
+}
+
+.container-botao {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.botao {
+    border-radius: 10px;
+    color:black;
+    background: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Aclonica', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao:hover {
+    border: white solid 3px;
+    font-size: 43xpx;
+}
+
+.botao:active {
+    background: white;
+}
