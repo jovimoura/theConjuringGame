@@ -6,8 +6,15 @@ body {
     color:red;
     font-family: 'Aclonica', sans-serif;
     text-align: center;
-    font-size: 80px;
-    margin: 20px;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color:white;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 35px;
+
 }
 
 p {
@@ -18,16 +25,20 @@ p {
     font-size: 20px;
 }
 
-.caixa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pergunta {
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 8px;
 }
 
-.foto {
-    width: 580px;
-    height: 350px;
-    margin:20px;
+.resposta {
+    color: white;
+    font-family: 'Antic', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin: 6px;
 }
 
 .container-botao {
@@ -56,4 +67,16 @@ p {
 
 .botao:active {
     background: white;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 580px;
+    height: 350px;
+    margin:20px;
 }
